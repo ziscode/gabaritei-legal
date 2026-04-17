@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Termos de Uso | Gabaritei</title>
+    <style>
+      :root {
+        --bg: #eef3fb;
+        --surface: rgba(255, 255, 255, 0.94);
+        --text: #17263f;
+        --muted: #52627e;
+        --primary: #163d72;
+        --accent: #2f6fdd;
+        --border: rgba(22, 61, 114, 0.1);
+        --shadow: 0 24px 60px rgba(22, 61, 114, 0.14);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        background:
+          radial-gradient(circle at top right, rgba(47, 111, 221, 0.16), transparent 34%),
+          radial-gradient(circle at bottom left, rgba(22, 61, 114, 0.12), transparent 28%),
+          var(--bg);
+        color: var(--text);
+      }
+
+      .page {
+        width: min(920px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 32px 0 56px;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, #163d72, #255aa8);
+        color: #fff;
+        border-radius: 28px;
+        padding: 28px 28px 24px;
+        box-shadow: var(--shadow);
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+
+      .brand-mark {
+        width: 52px;
+        height: 52px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.14);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        font-weight: 700;
+      }
+
+      .brand-name {
+        font-size: 0.95rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        opacity: 0.92;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.9rem, 3vw, 2.8rem);
+        line-height: 1.05;
+      }
+
+      .subtitle {
+        margin: 14px 0 0;
+        max-width: 700px;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+
+      .meta {
+        margin-top: 18px;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.12);
+        font-size: 0.95rem;
+      }
+
+      .content {
+        margin-top: 22px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        padding: 30px 24px;
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(10px);
+      }
+
+      .section {
+        padding: 0 0 22px;
+      }
+
+      .section + .section {
+        border-top: 1px solid rgba(22, 61, 114, 0.08);
+        padding-top: 24px;
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        color: var(--primary);
+        font-size: 1.14rem;
+      }
+
+      p,
+      li {
+        margin: 0;
+        color: var(--text);
+        line-height: 1.72;
+        text-align: justify;
+      }
+
+      p + p,
+      p + ul,
+      ul + p {
+        margin-top: 12px;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 22px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      .footer {
+        margin-top: 18px;
+        padding: 18px 4px 0;
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.94rem;
+        line-height: 1.6;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          width: min(100% - 20px, 920px);
+          padding: 16px 0 36px;
+        }
+
+        .hero {
+          border-radius: 22px;
+          padding: 22px 18px 20px;
+        }
+
+        .content {
+          border-radius: 22px;
+          padding: 24px 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div class="brand">
+          <div class="brand-mark">G</div>
+          <div class="brand-name">Gabaritei · ZisCode</div>
+        </div>
+        <h1>Termos de Uso</h1>
+        <p class="subtitle">
+          Este documento descreve as condições gerais de utilização do
+          aplicativo Gabaritei.
+        </p>
+        <div class="meta">Última atualização: 14/04/2026</div>
+      </section>
+
+      <section class="content">
+        <article class="section">
+          <h2>1. Finalidade</h2>
+          <p>
+            O Gabaritei é uma ferramenta de apoio para criação, impressão,
+            compartilhamento, leitura e organização de gabaritos.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>2. Natureza da ferramenta</h2>
+          <p>
+            O aplicativo foi desenvolvido para auxiliar atividades educacionais
+            e operacionais. O Gabaritei não substitui a conferência humana e
+            não garante ausência total de erro em leitura, interpretação de
+            marcações, importação, exportação, geração de arquivos ou
+            compartilhamento de conteúdo.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>3. Responsabilidade do usuário</h2>
+          <p>O usuário é responsável por:</p>
+          <ul>
+            <li>revisar provas, gabaritos, PDFs, imagens, leituras e compartilhamentos antes de utilizá-los;</li>
+            <li>verificar a correção das informações antes de aplicar provas ou lançar resultados;</li>
+            <li>decidir quais conteúdos insere, gera, importa, exporta, imprime ou compartilha;</li>
+            <li>utilizar o aplicativo de forma compatível com sua finalidade e com a legislação aplicável.</li>
+          </ul>
+        </article>
+
+        <article class="section">
+          <h2>4. Conteúdo gerado no app</h2>
+          <p>
+            Todo conteúdo criado, impresso, compartilhado, importado por QR Code
+            ou utilizado em correções é de responsabilidade do usuário.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>5. Compartilhamentos</h2>
+          <p>
+            O app pode gerar PDFs, imagens e QR Codes a partir das informações
+            cadastradas pelo usuário. O envio desses materiais ocorre por ação
+            voluntária do usuário, que assume a responsabilidade pelo uso,
+            destino e conferência do conteúdo compartilhado.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>6. Provas recebidas de outros dispositivos</h2>
+          <p>
+            Quando uma prova é recebida por QR Code, o app pode respeitar
+            restrições definidas pela origem, inclusive limitações de edição e
+            de novo compartilhamento. Essas regras fazem parte do funcionamento
+            normal do recurso.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>7. Armazenamento local</h2>
+          <p>
+            As provas e gabaritos são armazenados localmente no dispositivo. O
+            usuário é responsável por verificar a preservação e conferência dos
+            seus dados, especialmente antes de trocar de aparelho, reinstalar o
+            aplicativo ou realizar procedimentos que possam afetar o
+            armazenamento local.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>8. Disponibilidade e atualizações</h2>
+          <p>
+            O aplicativo pode ser atualizado, alterado, aperfeiçoado ou
+            descontinuado a qualquer momento, sem garantia de manutenção de
+            funcionalidades específicas por prazo determinado.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>9. Serviços técnicos de suporte</h2>
+          <p>
+            O Gabaritei pode utilizar serviços técnicos de terceiros para
+            monitoramento de falhas, estabilidade e análise de uso, conforme
+            descrito na Política de Privacidade.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>10. Aceitação</h2>
+          <p>
+            Ao utilizar o aplicativo, o usuário declara estar ciente destes
+            Termos de Uso e reconhece que a utilização do app e do conteúdo
+            gerado por ele ocorre sob sua própria responsabilidade.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>11. Contato</h2>
+          <p>
+            Para dúvidas sobre estes Termos de Uso, entre em contato pelo e-mail
+            <a href="mailto:ziscodeapps@gmail.com">ziscodeapps@gmail.com</a>.
+          </p>
+        </article>
+      </section>
+
+      <footer class="footer">
+        Gabaritei · Desenvolvido por ZisCode
+      </footer>
+    </main>
+  </body>
+</html>

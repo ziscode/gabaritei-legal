@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabaritei | Documentos</title>
+    <style>
+      :root {
+        --bg: #eef3fb;
+        --surface: rgba(255, 255, 255, 0.94);
+        --text: #17263f;
+        --muted: #52627e;
+        --primary: #163d72;
+        --accent: #2f6fdd;
+        --border: rgba(22, 61, 114, 0.1);
+        --shadow: 0 24px 60px rgba(22, 61, 114, 0.14);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top left, rgba(47, 111, 221, 0.18), transparent 34%),
+          radial-gradient(circle at bottom right, rgba(22, 61, 114, 0.12), transparent 28%),
+          var(--bg);
+      }
+
+      .page {
+        width: min(920px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 32px 0 56px;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, #163d72, #255aa8);
+        color: #fff;
+        border-radius: 28px;
+        padding: 28px;
+        box-shadow: var(--shadow);
+      }
+
+      .eyebrow {
+        font-size: 0.92rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        opacity: 0.88;
+      }
+
+      h1 {
+        margin: 14px 0 0;
+        font-size: clamp(2rem, 3vw, 3rem);
+        line-height: 1.05;
+      }
+
+      .subtitle {
+        margin: 14px 0 0;
+        max-width: 720px;
+        color: rgba(255, 255, 255, 0.92);
+        line-height: 1.7;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 18px;
+        margin-top: 24px;
+      }
+
+      .card {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        padding: 24px;
+        box-shadow: var(--shadow);
+        transition: transform 0.18s ease, box-shadow 0.18s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 28px 72px rgba(22, 61, 114, 0.18);
+      }
+
+      .icon {
+        width: 54px;
+        height: 54px;
+        border-radius: 18px;
+        background: rgba(47, 111, 221, 0.12);
+        color: var(--primary);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      h2 {
+        margin: 16px 0 10px;
+        color: var(--primary);
+        font-size: 1.2rem;
+      }
+
+      p {
+        margin: 0;
+        line-height: 1.68;
+        color: var(--muted);
+        text-align: justify;
+      }
+
+      .footer {
+        margin-top: 22px;
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.94rem;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          width: min(100% - 20px, 920px);
+          padding: 16px 0 36px;
+        }
+
+        .hero,
+        .card {
+          border-radius: 22px;
+        }
+
+        .hero {
+          padding: 22px 18px;
+        }
+
+        .card {
+          padding: 20px 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div class="eyebrow">Gabaritei · ZisCode</div>
+        <h1>Documentos Oficiais</h1>
+        <p class="subtitle">
+          Esta página reúne os documentos públicos do Gabaritei para consulta de
+          usuários, publicação em lojas de aplicativos e referência sobre
+          privacidade, uso e responsabilidades relacionadas ao aplicativo.
+        </p>
+      </section>
+
+      <section class="grid">
+        <a class="card" href="privacy-policy.html">
+          <div class="icon">P</div>
+          <h2>Política de Privacidade</h2>
+          <p>
+            Explica como o aplicativo trata dados locais, uso de câmera,
+            compartilhamentos, eventos técnicos e informações relacionadas ao
+            Firebase Analytics e Crashlytics.
+          </p>
+        </a>
+
+        <a class="card" href="terms-of-use.html">
+          <div class="icon">T</div>
+          <h2>Termos de Uso</h2>
+          <p>
+            Resume as condições gerais de uso do aplicativo, o papel do usuário
+            na revisão do conteúdo gerado e os limites de responsabilidade da
+            ferramenta.
+          </p>
+        </a>
+      </section>
+
+      <footer class="footer">
+        Contato: <a href="mailto:ziscodeapps@gmail.com">ziscodeapps@gmail.com</a>
+      </footer>
+    </main>
+  </body>
+</html>

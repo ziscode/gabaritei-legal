@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Política de Privacidade | Gabaritei</title>
+    <style>
+      :root {
+        --bg: #eef3fb;
+        --surface: rgba(255, 255, 255, 0.94);
+        --surface-strong: #ffffff;
+        --text: #17263f;
+        --muted: #52627e;
+        --primary: #163d72;
+        --accent: #2f6fdd;
+        --border: rgba(22, 61, 114, 0.1);
+        --shadow: 0 24px 60px rgba(22, 61, 114, 0.14);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(47, 111, 221, 0.18), transparent 34%),
+          radial-gradient(circle at bottom right, rgba(22, 61, 114, 0.12), transparent 28%),
+          var(--bg);
+        color: var(--text);
+      }
+
+      .page {
+        width: min(920px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 32px 0 56px;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, #163d72, #255aa8);
+        color: #fff;
+        border-radius: 28px;
+        padding: 28px 28px 24px;
+        box-shadow: var(--shadow);
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+
+      .brand-mark {
+        width: 52px;
+        height: 52px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.14);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        font-weight: 700;
+      }
+
+      .brand-name {
+        font-size: 0.95rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        opacity: 0.92;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.9rem, 3vw, 2.8rem);
+        line-height: 1.05;
+      }
+
+      .subtitle {
+        margin: 14px 0 0;
+        max-width: 700px;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+
+      .meta {
+        margin-top: 18px;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.12);
+        font-size: 0.95rem;
+      }
+
+      .content {
+        margin-top: 22px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        padding: 30px 24px;
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(10px);
+      }
+
+      .section {
+        padding: 0 0 22px;
+      }
+
+      .section + .section {
+        border-top: 1px solid rgba(22, 61, 114, 0.08);
+        padding-top: 24px;
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        color: var(--primary);
+        font-size: 1.14rem;
+      }
+
+      p,
+      li {
+        margin: 0;
+        color: var(--text);
+        line-height: 1.72;
+        text-align: justify;
+      }
+
+      p + p,
+      p + ul,
+      ul + p {
+        margin-top: 12px;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 22px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      .note {
+        margin-top: 14px;
+        padding: 16px 18px;
+        border-radius: 18px;
+        background: rgba(47, 111, 221, 0.08);
+        border: 1px solid rgba(47, 111, 221, 0.14);
+      }
+
+      .footer {
+        margin-top: 18px;
+        padding: 18px 4px 0;
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.94rem;
+        line-height: 1.6;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          width: min(100% - 20px, 920px);
+          padding: 16px 0 36px;
+        }
+
+        .hero {
+          border-radius: 22px;
+          padding: 22px 18px 20px;
+        }
+
+        .content {
+          border-radius: 22px;
+          padding: 24px 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div class="brand">
+          <div class="brand-mark">G</div>
+          <div class="brand-name">Gabaritei · ZisCode</div>
+        </div>
+        <h1>Política de Privacidade</h1>
+        <p class="subtitle">
+          Este documento descreve, de forma objetiva, como o Gabaritei trata
+          informações durante o uso do aplicativo.
+        </p>
+        <div class="meta">Última atualização: 14/04/2026</div>
+      </section>
+
+      <section class="content">
+        <article class="section">
+          <h2>1. Identificação</h2>
+          <p>
+            O Gabaritei é um aplicativo desenvolvido por ZisCode para auxiliar
+            na criação, impressão, compartilhamento, leitura e organização de
+            gabaritos.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>2. Como o app funciona</h2>
+          <p>
+            O Gabaritei foi projetado para funcionar principalmente com
+            armazenamento local no próprio dispositivo do usuário. O app não
+            exige conta de usuário para uso básico e não depende de cadastro
+            para criação e leitura de provas.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>3. Informações tratadas pelo app</h2>
+          <p>Durante o uso, o app pode tratar:</p>
+          <ul>
+            <li>descrições de provas e gabaritos cadastrados pelo usuário;</li>
+            <li>número de questões, alternativas e respostas definidas;</li>
+            <li>imagens capturadas pela câmera para leitura de gabaritos;</li>
+            <li>
+              arquivos gerados pelo próprio usuário, como PDFs e imagens de
+              compartilhamento;
+            </li>
+            <li>dados técnicos de uso e de diagnóstico para estabilidade do app.</li>
+          </ul>
+        </article>
+
+        <article class="section">
+          <h2>4. Armazenamento local</h2>
+          <p>
+            As informações de provas, gabaritos e configurações do aplicativo
+            são armazenadas localmente no dispositivo. Em condições normais de
+            atualização do app, esses dados devem ser preservados.
+          </p>
+          <p>
+            O usuário é responsável por manter cópia, controle e conferência dos
+            materiais que gerar ou utilizar no aplicativo.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>5. Uso da câmera</h2>
+          <p>
+            O app solicita acesso à câmera para capturar imagens de gabaritos e
+            permitir a leitura das marcações. A câmera é usada apenas para
+            execução dessa funcionalidade.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>6. Compartilhamento pelo usuário</h2>
+          <p>O Gabaritei pode gerar e compartilhar, por ação do próprio usuário:</p>
+          <ul>
+            <li>arquivos PDF;</li>
+            <li>imagens com QR Code;</li>
+            <li>provas preenchidas ou em branco;</li>
+            <li>provas importáveis por QR Code.</li>
+          </ul>
+          <p>
+            Esses compartilhamentos só ocorrem quando o usuário decide
+            executá-los. O usuário é responsável pelo conteúdo que escolher
+            compartilhar e pelo destino desse material.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>7. QR Code e permissões de edição</h2>
+          <p>
+            O app permite compartilhar provas por QR Code com regras definidas
+            pela origem, inclusive com permissão de edição habilitada ou
+            desabilitada para o dispositivo receptor. O usuário que compartilha
+            o conteúdo é responsável pela escolha dessas permissões.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>8. Firebase Analytics e Crashlytics</h2>
+          <p>
+            Para melhorar estabilidade, desempenho e experiência de uso, o
+            Gabaritei utiliza serviços do Firebase, incluindo Firebase Analytics
+            e Firebase Crashlytics.
+          </p>
+          <p>Esses serviços podem coletar dados técnicos e de uso, como:</p>
+          <ul>
+            <li>eventos de navegação e uso de recursos;</li>
+            <li>versão do app;</li>
+            <li>modelo do dispositivo;</li>
+            <li>sistema operacional;</li>
+            <li>informações técnicas sobre falhas, exceções e travamentos;</li>
+            <li>
+              identificadores técnicos necessários para funcionamento dos
+              serviços do Firebase.
+            </li>
+          </ul>
+          <p>
+            Esses dados são utilizados para monitoramento, correção de erros,
+            análise de uso e evolução do aplicativo.
+          </p>
+          <div class="note">
+            <p>
+              O app não tem como finalidade enviar para esses serviços, por
+              padrão, imagens da prova, conteúdo integral de PDFs, respostas
+              completas de alunos ou dados pessoais sensíveis inseridos pelo
+              usuário.
+            </p>
+          </div>
+        </article>
+
+        <article class="section">
+          <h2>9. Dados pessoais eventualmente inseridos pelo usuário</h2>
+          <p>
+            O aplicativo não foi projetado como plataforma de cadastro de dados
+            pessoais. Porém, o usuário pode, por sua própria iniciativa, inserir
+            descrições, imagens ou materiais que contenham informações
+            relacionadas a terceiros, como alunos.
+          </p>
+          <p>
+            Nesses casos, o usuário é o responsável pelo conteúdo inserido, pelo
+            uso adequado desse material e pela verificação de sua base legal,
+            quando aplicável.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>10. Exclusão de dados</h2>
+          <p>
+            Os dados locais podem ser excluídos pelo próprio usuário a partir
+            das funcionalidades do app ou pela remoção do aplicativo do
+            dispositivo, o que pode apagar os dados armazenados localmente.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>11. Alterações desta política</h2>
+          <p>
+            Esta Política de Privacidade pode ser atualizada futuramente para
+            refletir alterações legais, técnicas ou funcionais do aplicativo.
+            Quando necessário, o app poderá solicitar nova ciência do usuário.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2>12. Contato</h2>
+          <p>
+            Para dúvidas sobre esta Política de Privacidade, entre em contato
+            pelo e-mail
+            <a href="mailto:ziscodeapps@gmail.com">ziscodeapps@gmail.com</a>.
+          </p>
+        </article>
+      </section>
+
+      <footer class="footer">
+        Gabaritei · Desenvolvido por ZisCode
+      </footer>
+    </main>
+  </body>
+</html>
